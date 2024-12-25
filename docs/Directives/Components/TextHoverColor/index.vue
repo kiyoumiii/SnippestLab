@@ -4,7 +4,7 @@ import { vTextHoverColor } from "./text-hover-color";
 
 <template>
   <div class="text-hover-color">
-    <span v-text-hover-color>冷弋白</span>
+    <span v-text-hover-color>kiyoumi</span>
   </div>
 </template>
 

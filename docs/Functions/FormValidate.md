@@ -22,8 +22,8 @@ const form = {
 const result = _formVerify(form, [
   {
     key: "nickname",
-    verify: (v) => v === "冷弋白",
-    msg: "限制为冷弋白",
+    verify: (v) => v === "kiyoumi",
+    msg: "限制为kiyoumi",
     name: "昵称",
   },
   {
@@ -42,7 +42,7 @@ const result = _formVerify(form, [
 console.log(result);
 /*
 [
-  { key: 'nickname', msg: '限制为冷弋白', name: '昵称' },
+  { key: 'nickname', msg: '限制为kiyoumi', name: '昵称' },
   { key: 'age', msg: '必填项', name: '年龄' }
 ]
 */
@@ -81,9 +81,9 @@ export const _formVerify = (form: Record<string, any>, rules: { key: string, ver
 </template>
 
 ```ts
-const form = { account: "冷弋白", password: "123456" };
+const form = { account: "kiyoumi", password: "123456" };
 const fields = [
-  { key: "account", verify: (v) => v === "冷弋白" },
+  { key: "account", verify: (v) => v === "kiyoumi" },
   {
     key: "password",
     verify: /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[a-zA-Z\d]{8,16}$/,

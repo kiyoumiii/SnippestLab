@@ -16,18 +16,18 @@ const config = defineConfig({
     socialLinks: [
       {
         icon: "github",
-        link: "https://github.com/lengyibai/code-snippet",
+        link: "https://github.com/kiyoumiii/SnippestLab",
       },
     ],
     nav,
     sidebar,
     editLink: {
-      pattern: "https://github.com/lengyibai/code-snippet/edit/master/:path",
+      pattern: "https://github.com/kiyoumiii/SnippestLab/edit/master/:path",
       text: "在 GitHub 上编辑此页面",
     },
     footer: {
       message: "基于 MIT 许可发布",
-      copyright: `版权所有 © 2022-${new Date().getFullYear()} 冷弋白`,
+      copyright: `版权所有 © 2023-${new Date().getFullYear()} kiyoumi`,
     },
   },
 });
